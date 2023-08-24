@@ -1,0 +1,11 @@
+[package]
+name = "si-paling-cerdas-server"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+enet = { path = "./enet-rs" }
+mysql = "24.0.0"
+anyhow = "1.0.71"
+rand = "0.8.5"
+bson = "2.6.1"
